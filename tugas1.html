@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var capybara ={
+            nama : "nino",
+            warna : "cokelat",
+            jumlah_kaki : "4",
+            tinggi_badan : "50 cm",
+            berat_badan : "65 kg",
+            dipanggil : function (){
+                return "hewan paling ramah"
+            },
+            berkeliaran : function (){
+                return "aktif saat siang hari"
+            }
+        }
+
+        document.write(`nama : ${capybara.nama}<br />`);
+        document.write(`warna : ${capybara.warna}<br />`);
+        document.write(`jumlah_kaki : ${capybara.jumlah_kaki}<br />`);
+        document.write(`tinggi_badan : ${capybara.tinggi_badan}<br />`);
+        document.write(`berat_badan : ${capybara.berat_badan}<br />`);
+
+        document.write(capybara.dipanggil() + '<br />');
+        document.write(capybara.berkeliaran() + '<br />');
+    </script>
+</body>
+</html>
